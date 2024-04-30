@@ -61,3 +61,4 @@ function get_attachment_id_from_url($url)
 }
 
 add_action('init', 'create_product_category');
+register_activation_hook(__FILE__, 'create_product_category');
